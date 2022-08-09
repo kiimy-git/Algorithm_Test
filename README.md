@@ -1,6 +1,5 @@
 # Algorithm_Test
-
-[기타 알고리즘](Algorithm_Test/basic_al/)
+핵심유형
 
 [소수 구하기](https://www.acmicpc.net/problem/1929) :
 
