@@ -60,14 +60,14 @@ for i in range(2, int(math.sqrt(n)) + 1):
             array[i*j] = False # i배수 제거
             j += 1
 
-print(array)
+# 2. 2 = 구간 숫자, 2 - 26 사이 소수(= interval)
 for i in range(2, n+1):
     if array[i]: # array가 True인것
-        print(i)
+        print(i, end=" ")
 
 # 몫이 0 이니까 나머지는 그대로
 # 나누는 값이 클때 = 나누는 값 기준(=6)으로 나눠야할 값
 n = 4
 m = 6
 
-print(n // m)
+# print(n // m)
