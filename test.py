@@ -19,3 +19,16 @@ for i in range(8):
     lista.append(i)
 
 print(lista)
+
+n = 25
+k = 5
+cnt = 0
+
+while True:
+    if n % k == 0:
+        cnt +=1
+        n = n // k
+    
+    elif n == 1:
+        break
+print(cnt)
