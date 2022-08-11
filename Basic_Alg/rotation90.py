@@ -1,3 +1,5 @@
+# 2020년 카카오 자물쇠와 열쇠 문제
+
 import numpy as np
 
 def rotation_90(a):

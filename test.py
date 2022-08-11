@@ -32,3 +32,20 @@ while True:
     elif n == 1:
         break
 print(cnt)
+
+array = [[0]*5 for _ in range(5)]
+
+array[0][1] = [1,1]
+
+print(array)
+
+x = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+for i in x:
+    print(ord(i))
+
+# s = [list(map(int, input().split())) for _ in range(3)]
+# print(s)
+
+s = [[1, 1, 1, 1], [1, 0, 0, 1], [1, 1, 0, 1], [1, 1, 1, 1]]
+print(s[1][1])
