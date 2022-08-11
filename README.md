@@ -2,6 +2,8 @@
 핵심유형
 [기타 알고리즘](Algorithm_Test/basic_al/)
 
+
+기능 라이브러리화 습관화
 [2020년 카카오 '자물쇠와 열쇠'](Basic_Alg/rotation90.py)
 
 소수 판별
