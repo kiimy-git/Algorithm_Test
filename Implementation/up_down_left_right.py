@@ -70,7 +70,7 @@ for plan in input_move:
         continue
 
     # 스와핑
-    # x, y = nx, ny
+    x, y = nx, ny
 
 print(x, y)
 
