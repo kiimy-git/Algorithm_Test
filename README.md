@@ -8,13 +8,13 @@
 
 [소수 판별](Basic_Alg/prime_number.py)
 
-1. 에라토스테네스의 체
+- 에라토스테네스의 체
 
 [투 포인터](Basic_Alg/two_pointer.py)
 
-1. 특정한 합을 가지는 부분 연속 수열 찾기
+- 특정한 합을 가지는 부분 연속 수열 찾기
 
-2. 정렬되어 있는 두 리스트 합치기
+- 정렬되어 있는 두 리스트 합치기
 
 [선택정렬 Selection Sort](Basic_Alg/selection_sort.py)
 
