@@ -6,15 +6,17 @@
 <기능 라이브러리화 습관화>
 [2020년 카카오 '자물쇠와 열쇠'](Basic_Alg/rotation90.py)
 
-소수 판별
+[소수 판별](Basic_Alg/prime_number.py)
 
-에라토스테네스의 체
+1. 에라토스테네스의 체
 
 [투 포인터](Basic_Alg/two_pointer.py)
 
 1. 특정한 합을 가지는 부분 연속 수열 찾기
 
 2. 정렬되어 있는 두 리스트 합치기
+
+[Selection Sort](Basic_Alg/selection_sort.py)
 
 구간 합
 
