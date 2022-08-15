@@ -24,12 +24,12 @@ array.sort()
 # 길이가 ㅣ인 조합
 for combi in combinations(array, l):
     print("모든 조합: ", combi)
-    # cnt = 0
-    # for i in combi:
-    #     if i in alpa:
-    #         cnt += 1
+    cnt = 0
+    for i in combi:
+        if i in alpa:
+            cnt += 1
 
-    # # 최소 1개의 모음과 최소 2개의 자음이 있는 경우
-    # if cnt >= 1 and cnt <= l - 2:
-    #     # print(combi)
-    #     print(''.join(combi))
+    # 최소 1개의 모음과 최소 2개의 자음이 있는 경우
+    if cnt >= 1 and cnt <= l - 2:
+        # print(combi)
+        print(''.join(combi))

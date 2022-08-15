@@ -133,7 +133,7 @@ count = 1
 turn_time = 0
 while True:
     # 왼쪽으로 회전
-    # 방향 전환 = 처음 방향에 육지가 있을 수 있는데 먼저 확인해고 이동해야하지 않나???
+    # 방향 전환 = 처음 방향에 육지가 있을 수 있는데 먼저 확인하고 이동해야하지 않나???
     turn_left()
     nx = x + dx[direction]
     ny = y + dy[direction]
