@@ -16,13 +16,13 @@
 
 2. 정렬되어 있는 두 리스트 합치기
 
-[Selection Sort](Basic_Alg/selection_sort.py)
+[선택정렬 Selection Sort](Basic_Alg/selection_sort.py)
 
-구간 합
+구간 합 prefix
 
-순열
+순열 permutations
 
-조합
+조합 combinations
 
 [소수 구하기](https://www.acmicpc.net/problem/1929) : [풀이](Basic_Alg/prime_test1.py)
 
