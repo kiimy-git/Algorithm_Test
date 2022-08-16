@@ -90,5 +90,6 @@ def dfs2(graph, start_node):
 print(dfs(graph, 1))
 print(dfs2(graph, 1))
 
-# 아웃풋이 다름
+# 아웃풋이 다름 why???
+# 스택은 마지막에 스택에 담은 정점부터 꺼내져 방문되기 때문에 재귀 방식과 결과가 다름.
 dfs3(graph, 1, visited)

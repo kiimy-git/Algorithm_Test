@@ -80,11 +80,6 @@ print(0.3 + 0.6 == 0.9)
 print(0.5 + 0.4 == 0.9)
 print(0.6 + .6 == 1.2)
 
-a = False
-if  a:
-    print("ㅇㅇ")
-else:
-    print("Asd")
 
 import numpy as np
 ss = np.array([[False, True, True, False], [True, True, True, False], [False, True, True, True], [False, False, True, False]])
