@@ -1,6 +1,5 @@
 from random import randint
 import time
-from collections import Counter
 
 # 선택 정렬(selection Sort)
 array = []
@@ -13,7 +12,11 @@ print(array)
 starttime = time.time()
 # 인덱스 접근
 for i in range(len(array)):
+
+    # 가장 작은 데이터 선택
     min_index = i
+
+    # 다음 값과 비교
     for j in range(i+1, len(array)):
         if array[min_index] > array[j]:
             min_index = j
