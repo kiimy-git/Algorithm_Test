@@ -1,6 +1,6 @@
 # Algorithm_Test
 핵심유형
-[기타 알고리즘](basic_al/)
+[기타 알고리즘](basic_al)
 
 
 <기능 라이브러리화 습관화>
