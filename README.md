@@ -1,5 +1,5 @@
 # Algorithm_Test
-핵심유형
+### 핵심유형
 [기타 알고리즘](Basic_Alg/)
 
 
@@ -27,3 +27,5 @@
 [소수 구하기](https://www.acmicpc.net/problem/1929) : [풀이](Basic_Alg/prime_test1.py)
 
 [암호 만들기](https://www.acmicpc.net/problem/1759) : [풀이](Basic_Alg/password_test.py)
+
+---
