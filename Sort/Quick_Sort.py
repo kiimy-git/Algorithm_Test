@@ -48,7 +48,7 @@ def quick_sort1(array, start, end):
     right = end # array 끝 인덱스 
 
     # 마지막 인덱스 값 까지 확인
-    # left = 큰 데이터, right = 작은 데이터
+    # left = 작은 데이터, right = 큰 데이터
     while left <= right:
 
         # 왼쪽, 오른쪽 동시에 확인
@@ -68,8 +68,7 @@ def quick_sort1(array, start, end):
         else:
             array[left], array[right] = array[right], array[left]
 
-    # left가 더 크면 while 종료
-    # 분할 이후 왼쪽 부분과 오른쪽 부분에서 각각 정렬 수행
+    # 분할 이후(=while 종료) 왼쪽 부분과 오른쪽 부분에서 각각 정렬 수행
     quick_sort1(array, start, right-1) # right - 1 ==> 피벗 제외
     quick_sort1(array, right + 1, end) # right + 1 ==> 피벗 제외
 
