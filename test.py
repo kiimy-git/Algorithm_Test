@@ -80,6 +80,7 @@ print(0.3 + 0.6 == 0.9)
 print(0.5 + 0.4 == 0.9)
 print(0.6 + .6 == 1.2)
 
+print(3 // 2)
 
 import numpy as np
 ss = np.array([[False, True, True, False], [True, True, True, False], [False, True, True, True], [False, False, True, False]])
@@ -138,3 +139,28 @@ while True:
         turn_time = 0
 
 print(count)
+
+
+
+def binary_search(array, target, start, end):
+    if start > end:
+        return None
+
+    # mid 설정
+    mid = (start + end) // 2
+
+    # 조건
+    # 중간값과 타겟값이 같을때
+    if array[mid] == target:
+        return mid
+        
+    # 중간값이 크면 끝점 이동
+    elif array[mid] > target:
+        return binary_search(array, target, start, mid - 1)
+
+    # 중간값이 작으면 시작점 이동
+    else: # array[mid] < target:
+        return binary_search(array, target, mid+1, end)
+
+
+    
