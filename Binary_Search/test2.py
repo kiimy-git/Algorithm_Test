@@ -76,10 +76,12 @@ while(start <= end):
             total += i - mid
     
     # 떡의 양이 부족한 경우 끝점을 감소(떡 길이의 끝)
-    if total < m:
+    # 중간점의 값보다 total(=찾고자하는 값, 필요한 떡의 길이)이 작을 때 
+    if m > total:
         end = mid - 1
     
     # 떡의 양이 큰 경우 시작점을 증가(떡 길이의 시작)
+    # 중간점의 값보다 total(=찾고자하는 값)이 클 때
     else:
         res = mid # 최대한 덜 잘랐을 때가 정답이므로, res에 기록
         start = mid + 1
