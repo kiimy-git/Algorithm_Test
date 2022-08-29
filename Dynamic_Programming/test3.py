@@ -9,6 +9,8 @@ input = sys.stdin.readline
 n = int(input())
 
 # DP 테이블 초기화
+# 한 번 계산된 결과 "메모이제이션"
+# index = " 금액 " / value = " 방법 "
 m = [0]* 1001
 
 # 왼쪽부터 차례대로 (i - 1), (i - 2)

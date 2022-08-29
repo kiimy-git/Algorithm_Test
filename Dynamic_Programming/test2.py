@@ -36,6 +36,8 @@ print(m[n-3])
 n = int(input())
 array = list(map(int, input().split()))
 
+# 한 번 계산된 결과 "메모이제이션"
+# index = " 금액 " / value = " 방법 "
 d = [0] * 100
 
 d[0] = array[0]
