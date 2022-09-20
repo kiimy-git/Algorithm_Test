@@ -62,6 +62,7 @@ def union_parent(parent, a, b):
     a = find_parent_com(parent, a)
     b = find_parent_com(parent, b)
 
+    # index 작은 순으로 
     if a < b:
         parent[b] = a
 
