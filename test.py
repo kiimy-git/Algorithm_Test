@@ -163,3 +163,4 @@ def binary_search(array, target, start, end):
         return binary_search(array, target, mid+1, end)
 
 
+print([0]*5)
