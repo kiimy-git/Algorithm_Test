@@ -26,6 +26,11 @@ def chk_prime_num(data):
 import math
 
 def chk_prime_num_plus(data):
+    if num == 2:
+        return True
+    if num == 1 or num % 2 == 0:
+        return False
+        
     # 2부터 data의 숫자까지 봐야하므로(range(1, 3-1) => range는 1,2까지만 확인함)
     for i in range(2, int(math.sqrt(data)) + 1):
         if data % i == 0:
@@ -67,7 +72,7 @@ for i in range(2, n+1):
 
 # 몫이 0 이니까 나머지는 그대로
 # 나누는 값이 클때 = 나누는 값 기준(=6)으로 나눠야할 값
-n = 4
+a = 4
 m = 6
 
-# print(n // m)
+print(2 // m)

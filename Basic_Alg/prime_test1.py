@@ -11,7 +11,7 @@ prime_data[1] = 0 # 1은 소수가 아님
 
 # 나열한 수 중에서 아직 처리하지 않은 가장 작은 수를 찾는다(입력 값)
 for i in range(2, int(math.sqrt(n) + 1)): # n의 제곱근(가운데 약수)까지만 증가시킴
-    if prime_data[i] == True: 
+    if prime_data[i] == True: # or prime_data[i]:
         j = 2
         # i = 2, 3, 4
         # n = 16

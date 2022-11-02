@@ -33,3 +33,8 @@ for combi in combinations(array, l):
     if cnt >= 1 and cnt <= l - 2:
         # print(combi)
         print(''.join(combi))
+
+'''
+4 6
+a t c i s w
+'''

@@ -22,3 +22,39 @@ a = [
     [9,10,11,12]
 ]
 print(rotation_90(a))
+
+from collections import defaultdict
+people = ["muzi", "frodo", "apeach", "neo"]
+report = ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"]
+
+report_dict = defaultdict(set)
+# for i in people:
+#     report_dict[i] = []
+
+result_dict = defaultdict(set)
+
+for i in range(len(report)):
+    p1, p2 = report[i].split()
+    report_dict[p1].add(p2)
+
+    # result_dict[p2] = set()
+    result_dict[p2].add(p1)
+print(report_dict)
+print(result_dict)
+
+score = [0 for _ in range(len(people))]
+
+for i in range(len(people)):
+    user = people[i]
+
+    if user not in report_dict.keys():
+        continue
+
+    for bad in report_dict[user]:
+        if len(result_dict[bad]) >= 2:
+            score[i] += 1
+
+print(score)
+
+
+# result [2, 1, 1, 0]
